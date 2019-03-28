@@ -9,6 +9,7 @@
 </head>
 
 <body>
+  <!-- this table should be a template for the  results page-->
   <table style="border: 1px solid black;">
     <tr>
       <th>Name</th>
@@ -28,8 +29,67 @@
     </tr>
   </table>
 
+  <!-- this form is a template for the form page  "/" -->
   <form class="form" action="/results.json" method="POST">
-  
+
+    <label for="country" class="genre">
+      <h3>country</h3>
+
+    </label>
+    <input type="radio" name="country" value="country">
+
+
+
+    <label for="pop" class="genre">
+      <h3>pop</h3>
+    </label>
+    <input type="radio" name="pop" value="pop">
+    <!-- <input type="radio" name="pop" value="pop">
+        <input type="radio" name="rock" value="rock"> -->
+
+
+
+
+
+    <label for="genre" class="genre">
+      <h3>Genre:</h3>
+      <input type="radio" name="country" value="country">
+      <input type="radio" name="pop" value="pop">
+      <input type="radio" name="rock" value="rock">
+    </label>
+
+    <label for="mood" class="mood">
+      <h3>Mood:</h3>
+      <input type="radio" name="happy" value="happy">
+      <input type="radio" name="sad" value="sad">
+      <input type="radio" name="chill" value="chill">
+    </label>
+
+    <label for="decade" class="decade">
+      <h3>Decade:</h3>
+      <input type="radio" name="decade" value="2010">
+      <input type="radio" name="2000" value="2000">
+      <input type="radio" name="1990" value="1990">
+    </label>
+
+
+    <fieldset id="genre">
+
+    </fieldset>
+    <br>
+    <input type="submit" name="Submit" value="Submit">
+  </form>
+
+  <form>
+    <!-- the bottom example should be applied to everything  -->
+    <!-- label is linked to input by for -> id -->
+    <fieldset id="group2">
+      <label for="1">yo</label>
+      <input type="radio" value="value1" name="group2" id="1">
+      <label for="2">yozaa</label>
+      <input type="radio" value="value2" name="group2" id="2">
+      <input type="radio" value="value3" name="group2">
+    </fieldset>
   </form>
 </body>
 
