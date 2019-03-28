@@ -1,0 +1,19 @@
+{
+  "name": "team-phoenix-dragon",
+  "version": "1.0.0",
+  "description": "we the best music - DJ KHALED",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piwakawaka-2019/team-phoenix-dragon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piwakawaka-2019/team-phoenix-dragon/issues"
+  },
+  "homepage": "https://github.com/piwakawaka-2019/team-phoenix-dragon#readme"
+}
