@@ -4,7 +4,9 @@
   "description": "we the best music - DJ KHALED",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll --noStackTrace",
+    "start": "node index.js",
+    "debug": "nodemon --inspect index --ignore data.json"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/piwakawaka-2019/team-phoenix-dragon/issues"
   },
-  "homepage": "https://github.com/piwakawaka-2019/team-phoenix-dragon#readme"
+  "homepage": "https://github.com/piwakawaka-2019/team-phoenix-dragon#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.2",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "nodemon": "^1.17.3",
+    "supertest": "^3.0.0",
+    "cheerio": "^1.0.0-rc.2"
+  }
 }
