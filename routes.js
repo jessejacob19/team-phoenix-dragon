@@ -1,6 +1,7 @@
 
 const express = require('express')
 const router = express.Router()
+const fs = require('fs')
 
 const data = require('./data')//.music
 const results = require('./results')//.music
@@ -11,21 +12,23 @@ router.get('/', (req, res) => {
 })
 
 router.post('/', (req, res) => {
-
   let formInfo = req.body;// will include genre, mood, decade
-  //formInfo.genre, formInfo.mood, formInfo.year
-  //formInfo.year needs to be translated into a decade -- should be easy to do
-
-  let result = data.find((element) => {
-    return element.genre == formInfo.genre && element.year == formInfo.year
-  });
+  //console.log(data.Music)
+  
+  let result = 3;
+  // let result = data.Music.find((element) => {
+  //   return element.genre == formInfo.genre && element.year == formInfo.year
+  // });
   //overwrite to results.json
-  //this is where the matching algorithm goes
   fs.writeFile('results.json', result, (err) => {
     if (err) throw err;
     //redirect to the page
     res.redirect('/results')
   })
+
+//   fs.writeFile('results.json', "4", (err) => {
+//     console.log(err);
+//   })
 
 
 })
