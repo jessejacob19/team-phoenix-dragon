@@ -1,0 +1,165 @@
+{
+    "Music": [
+      {
+        "id": 1,
+        "Song": "Yes",
+        "Artist": "Who?",
+        "Genre": "R&B",
+        "Decade": "2000's",
+        "Mood": "Happy"
+      },
+      {
+        "id": 2,
+        "Song": "Get Out",
+        "Artist": "No one",
+        "Genre": "Metal",
+        "Decade": "1990's",
+        "Mood": "Angry" 
+      },
+      {
+        "id": 3,
+        "Song": "NO",
+        "Artist": "This Person",
+        "Genre": "Alternative",
+        "Decade": "1990's",
+        "Mood": "Frustrated"
+      },
+      {
+        "id": 4,
+        "Song": "ILYSM",
+        "Artist": "LUV",
+        "Genre": "Pop",
+        "Decade": "2010's",
+        "Mood": "Love"
+      },
+      {
+        "id": 5,
+        "Song": "CrY",
+        "Artist": "Tears",
+        "Genre": "Pop",
+        "Decade": "2010's",
+        "Mood": "Sad"
+      },
+      {
+        "id": 6,
+        "Song": "Luv me",
+        "Artist": "This Guy",
+        "Genre": "Pop",
+        "Decade": "1990's",
+        "Mood": "Desperate"
+      },
+      {
+        "id": 7,
+        "Song": "Myself",
+        "Artist": "That Guy",
+        "Genre": "Grunge",
+        "Decade": "1980's",
+        "Mood": "Angry"
+      },
+      {
+        "id": 8,
+        "Song": "Hello",
+        "Artist": "Yello",
+        "Genre": "Mello",
+        "Decade": "1970's",
+        "Mood": "Chill"
+      },
+      {
+        "id": 9,
+        "Song": "TY",
+        "Artist": "Kindness",
+        "Genre": "Pop",
+        "Decade": "1970's",
+        "Mood": "Happy"
+      },
+      {
+        "id": 10,
+        "Song": "This",
+        "Artist": "That",
+        "Genre": "Metal",
+        "Decade": "2010's",
+        "Mood": "Frustrated"
+      },
+      {
+        "id": 11,
+        "Song": "Hello",
+        "Artist": "GoodBye",
+        "Genre": "Hip Hop",
+        "Decade": "2010's",
+        "Mood": "Chill"
+      },
+      {
+        "id": 12,
+        "Song": "Flowers",
+        "Artist": "Puppies",
+        "Genre": "Pop",
+        "Decade": "2000's",
+        "Mood": "Happy"
+      },
+      {
+        "id": 13,
+        "Song": "YES",
+        "Artist": "No",
+        "Genre": "Rock",
+        "Decade": "1990's",
+        "Mood": "Chill"
+      },
+      {
+        "id": 14,
+        "Song": "Rocky",
+        "Artist": "Ricky",
+        "Genre": "Rock",
+        "Decade": "1980's",
+        "Mood": "Sad"
+      },
+      {
+        "id": 15,
+        "Song": "Mop",
+        "Artist": "Fop",
+        "Genre": "Rap",
+        "Decade": "2000's",
+        "Mood": "Chill"
+      },
+      {
+        "id": 16,
+        "Song": "Nutz",
+        "Artist": "Deez",
+        "Genre": "Pop",
+        "Decade": "2010's",
+        "Mood": "Desperate"
+      },
+      {
+        "id": 17,
+        "Song": "Lists",
+        "Artist": "I Hate",
+        "Genre": "Metal",
+        "Decade": "2000's",
+        "Mood": "Angry"
+      },
+      {
+        "id": 18,
+        "Song": "Almost",
+        "Artist": "Done",
+        "Genre": "Pop",
+        "Decade": "2010's",
+        "Mood": "Happy"
+      },
+      {
+        "id": 19,
+        "Song": "Please",
+        "Artist": "End Me",
+        "Genre": "Metal",
+        "Decade": "1980's",
+        "Mood": "Desperate"
+      },
+      {
+        "id": 20,
+        "Song": "Finally",
+        "Artist": "Over",
+        "Genre": "R&B",
+        "Decade": "1980's",
+        "Mood": "Happy"
+      }
+    ]
+  }
+  
