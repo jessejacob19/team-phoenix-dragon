@@ -10,107 +10,41 @@
 
 <body>
   <!-- this table should be a template for the  results page-->
-  <table style="border: 1px solid black;">
-    <tr>
-      <th>Name</th>
-      <th>Artist</th>
-      <th>Album</th>
-      <th>Year</th>
-      <th>Genre</th>
-      <th>Mood</th>
-    </tr>
-    <tr>
-      <th>i'm the one</th>
-      <th>dj khaled</th>
-      <th>Grateful</th>
-      <th>2017</th>
-      <th>pop</th>
-      <th>party</th>
-    </tr>
-  </table>
+
 
   <!-- this form is a template for the form page  "/" -->
   <form class="form" action="/results.json" method="POST">
 
-    <label for="country" class="genre">
-      <h3>country</h3>
 
-    </label>
-    <input type="radio" name="country" value="country">
-
-
-
-    <label for="pop" class="genre">
-      <h3>pop</h3>
-    </label>
-    <input type="radio" name="pop" value="pop">
-    <!-- <input type="radio" name="pop" value="pop">
-        <input type="radio" name="rock" value="rock"> -->
-
-
-
-
-
-    <label for="genre" class="genre">
-      <h3>Genre:</h3>
-      <input type="radio" name="country" value="country">
-      <input type="radio" name="pop" value="pop">
-      <input type="radio" name="rock" value="rock">
-    </label>
-
-    <label for="mood" class="mood">
-      <h3>Mood:</h3>
-      <input type="radio" name="happy" value="happy">
-      <input type="radio" name="sad" value="sad">
-      <input type="radio" name="chill" value="chill">
-    </label>
-
-    <label for="decade" class="decade">
-      <h3>Decade:</h3>
-      <input type="radio" name="decade" value="2010">
-      <input type="radio" name="2000" value="2000">
-      <input type="radio" name="1990" value="1990">
-    </label>
-
-
-    <fieldset id="genre">
-
-    </fieldset>
-    <br>
-    <input type="submit" name="Submit" value="Submit">
-  </form>
-
-  <form class="form" action="/results.json" method="POST">
-    <!-- the bottom example should be applied to everything  -->
-    <!-- label is linked to input by for -> id -->
-    <fieldset id="genre">
+    
+      <fieldset id="genre">
 
       <label for="pop">pop</label>
-      <input type="radio" value="pop" name="pop" id="pop">
+      <input type="radio" value="pop" name="genre" id="pop" checked>
 
       <label for="Metal">Metal</label>
-      <input type="radio" value="Metal" name="Metal" id="Metal">
+      <input type="radio" value="Metal" name="genre" id="Metal">
 
       <label for="Rock">Rock</label>
-      <input type="radio" value="Rock" name="Rock" id="Rock">
+      <input type="radio" value="Rock" name="genre" id="Rock">
 
       <label for="Punk">Punk</label>
-      <input type="radio" value="Punk" name="Punk" id="Punk">
+      <input type="radio" value="Punk" name="genre" id="Punk">
 
       <label for="R&B">R&B</label>
-      <input type="radio" value="R&B" name="R&B" id="R&B">
+      <input type="radio" value="R&B" name="genre" id="R&B">
 
       <label for="Jazz">Jazz</label>
-      <input type="radio" value="Jazz" name="Jazz" id="Jazz">
+      <input type="radio" value="Jazz" name="genre" id="Jazz">
 
       <label for="Hip-Hop">Hip-Hop</label>
-      <input type="radio" value="Hip-Hop" name="Hip-Hop" id="Hip-Hop">
+      <input type="radio" value="Hip-Hop" name="genre" id="Hip-Hop">
 
       <label for="Electronic">Electronic</label>
-      <input type="radio" value="Electronic" name="Electronic" id="Electronic">
+      <input type="radio" value="Electronic" name="genre" id="Electronic">
 
       <label for="Rap">Rap</label>
-      <input type="radio" value="Rap" name="Rap" id="Rap">
+      <input type="radio" value="Rap" name="genre" id="Rap">
 
  
     </fieldset>
@@ -118,22 +52,22 @@
     <fieldset id="mood">
 
       <label for="angry">angry</label>
-      <input type="radio" value="angry" name="angry" id="angry">
+      <input type="radio" value="angry" name="mood" id="angry" checked>
       
       <label for="sad">sad</label>
-      <input type="radio" value="sad" name="sad" id="sad">
+      <input type="radio" value="sad" name="mood" id="sad">
       
       <label for="Happy">Happy</label>
-      <input type="radio" value="Happy" name="Happy" id="Happy">
+      <input type="radio" value="Happy" name="mood" id="Happy">
      
       <label for="Energetic">Energetic</label>
-      <input type="radio" value="Energetic" name="Energetic" id="Energetic">
+      <input type="radio" value="Energetic" name="mood" id="Energetic">
      
       <label for="Chill">Chill</label>
-      <input type="radio" value="Chill" name="Chill" id="Chill">
+      <input type="radio" value="Chill" name="mood" id="Chill">
           
       <label for="Desperate">Desperate</label>
-      <input type="radio" value="Desperate" name="Desperate" id="Desperate">
+      <input type="radio" value="Desperate" name="mood" id="Desperate">
 
       
     </fieldset>
@@ -141,18 +75,20 @@
     <fieldset id="decade">
 
       <label for="1980's">1980's</label>
-      <input type="radio" value="1980's" name="1980's" id="1980's">
+      <input type="radio" value="1980's" name="decade" id="1980's" checked>
 
       <label for="1990's">1990's</label>
-      <input type="radio" value="1990's" name="1990's" id="1990's">
+      <input type="radio" value="1990's" name="decade" id="1990's">
 
       <label for="2000's">2000's</label>
-      <input type="radio" value="2000's" name="2000's" id="2000's">
+      <input type="radio" value="2000's" name="decade" id="2000's">
 
       <label for="2010's">2010's</label>
-      <input type="radio" value="2010's" name="2010's" id="2010's">
+      <input type="radio" value="2010's" name="decade" id="2010's">
 
     </fieldset>
+    <br>
+    <input type="submit">
   </form>
 </body>
 
