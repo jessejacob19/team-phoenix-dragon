@@ -28,14 +28,16 @@ console.log(formInfo)
     results.push(result);
     //overwrite to results.json
     fs.writeFile('results.json', JSON.stringify(results, null, 2), (err) => {
-      if (err) throw err;
+      // if (err) throw err;
+      console.log(err)
       //redirect to the page
       res.redirect('/results')
     })
 
   } else {
     fs.writeFile('results.json', JSON.stringify([], null, 2), (err) => {
-      if (err) throw err;
+      // if (err) throw err;
+      console.log(1, err)
       //redirect to the page
       res.redirect('/results')
     })
