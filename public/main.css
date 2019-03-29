@@ -5,18 +5,17 @@ body{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   font-family: 'Abril Fatface', cursive;
+  
+  text-decoration: none;
+  background-color: rgb(180, 167, 93);
   }
   
   .img{
   width:100%;
   height:auto;
   }
-  .main-container{
-   
-  
-  }  
-  
-  .header{
+
+  .h2{
   background-color: lightgrey;
   width: 300px;
   border-radius: 25px;
@@ -24,6 +23,7 @@ body{
   padding: 25px;
   margin: 20px;
   font-size: 40px;
+
   }
   
   .main{
@@ -34,4 +34,15 @@ body{
   border:25px solid rgb(255,102,0);
   border-radius: 25px;
   background-color: beige;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  h1{
+
+    color: black;
+    font-size: 50pt;
   }
