@@ -5,15 +5,15 @@
         "Song": "Rise",
         "Artist": "Public Image LTD",
         "Genre": "Punk",
-        "Decade": "1980's",
+        "Decade": "1980",
         "Mood": "Angry"
       },
       {
         "id": 2,
         "Song": "F**K You",
         "Artist":"Cee Lo Green",
-        "Genre": "pop",
-        "Decade": "2010's",
+        "Genre": "Pop",
+        "Decade": "2010",
         "Mood": "Angry" 
       },
       {
@@ -21,7 +21,7 @@
         "Song": "Angry Chair",
         "Artist": "Alice In Chains",
         "Genre": "Metal",
-        "Decade": "1990's",
+        "Decade": "1990",
         "Mood": "Angry"
       },
       {
@@ -29,7 +29,7 @@
         "Song": "St. Anger",
         "Artist": "Metallica",
         "Genre": "Rock",
-        "Decade": "2000's",
+        "Decade": "2000",
         "Mood": "Angry"
       },
       {
@@ -37,7 +37,7 @@
         "Song": "Mad World",
         "Artist": "Gary Jules",
         "Genre": "Pop",
-        "Decade": "2010's",
+        "Decade": "2010",
         "Mood": "Sad"
       },
       {
@@ -45,7 +45,7 @@
         "Song": "The Sound Of Silence",
         "Artist": "Disturbed",
         "Genre": "Metal",
-        "Decade": "2010's",
+        "Decade": "2010",
         "Mood": "Sad"
       },
       {
@@ -53,7 +53,7 @@
         "Song": "Stole",
         "Artist": "Kelly Rowland",
         "Genre": "R&B",
-        "Decade": "2000's",
+        "Decade": "2000",
         "Mood": "Sad"
       },
       {
@@ -61,7 +61,7 @@
         "Song": "Tears In Heaven",
         "Artist": "Eric Clapton",
         "Genre": "Rock",
-        "Decade": "2010's",
+        "Decade": "2010",
         "Mood": "Sad"
       },
       {
@@ -69,7 +69,7 @@
         "Song": "Don't Worry Be Happy",
         "Artist": "Bobby McFerrin",
         "Genre": "Jazz",
-        "Decade": "1980's",
+        "Decade": "1980",
         "Mood": "Happy"
       },
       {
@@ -77,7 +77,7 @@
         "Song": "Happy",
         "Artist": "Pharrell Williams",
         "Genre": "pop",
-        "Decade": "2010's",
+        "Decade": "2010",
         "Mood": "Happy"
       },
       {
@@ -85,7 +85,7 @@
         "Song": "Hey Ya",
         "Artist": "Outcast",
         "Genre": "Hip-Hop",
-        "Decade": "2000's",
+        "Decade": "2000",
         "Mood": "Happy"
       },
       {
@@ -93,7 +93,7 @@
         "Song": "Shiny Happy People",
         "Artist": "R.E.M",
         "Genre": "Rock",
-        "Decade": "1990's",
+        "Decade": "1990",
         "Mood": "Happy"
       },
       {
@@ -101,7 +101,7 @@
         "Song": "Sandstorm",
         "Artist": "Darude",
         "Genre": "Electronic",
-        "Decade": "2000's",
+        "Decade": "2000",
         "Mood": "Energetic"
       },
       {
@@ -109,7 +109,7 @@
         "Song": "Black or White",
         "Artist": "Michael Jackson",
         "Genre": "Pop",
-        "Decade": "1990's",
+        "Decade": "1990",
         "Mood": "Energetic"
       },
       {
@@ -117,7 +117,7 @@
         "Song": "Mop",
         "Artist": "Fop",
         "Genre": "Rap",
-        "Decade": "2000's",
+        "Decade": "2000",
         "Mood": "Chill"
       },
       {
@@ -125,7 +125,7 @@
         "Song": "Nutz",
         "Artist": "Deez",
         "Genre": "Pop",
-        "Decade": "2010's",
+        "Decade": "2010",
         "Mood": "Desperate"
       },
       {
@@ -133,7 +133,7 @@
         "Song": "Lists",
         "Artist": "I Hate",
         "Genre": "Metal",
-        "Decade": "2000's",
+        "Decade": "2000",
         "Mood": "Angry"
       },
       {
@@ -141,7 +141,7 @@
         "Song": "Almost",
         "Artist": "Done",
         "Genre": "Pop",
-        "Decade": "2010's",
+        "Decade": "2010",
         "Mood": "Happy"
       },
       {
@@ -149,7 +149,7 @@
         "Song": "Please",
         "Artist": "End Me",
         "Genre": "Metal",
-        "Decade": "1980's",
+        "Decade": "1980",
         "Mood": "Desperate"
       },
       {
@@ -157,7 +157,7 @@
         "Song": "Finally",
         "Artist": "Over",
         "Genre": "R&B",
-        "Decade": "1980's",
+        "Decade": "1980",
         "Mood": "Happy"
       }
     ]
