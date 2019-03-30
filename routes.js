@@ -7,13 +7,14 @@ const data = require('./data')
 let results = require('./results')
 
 router.get('/', (req, res) => {
+  console.log(data)
   res.render('partials/form');
 })
 
 router.post('/', (req, res) => {
   let formInfo = req.body;
-c.find((element) => {
-    return element.Genre == formInfo.Genre && element.Decade == formInfo.Decade
+    let result = data.Music.find((element) => {
+      return element.Genre == formInfo.Genre && element.Decade == formInfo.Decade && element.Mood == formInfo.Mood
   });
 
   if (result) {
@@ -21,7 +22,6 @@ c.find((element) => {
     results.push(result);
     fs.writeFile('results.json', JSON.stringify(results, null, 2), (err) => {
       if (err) throw err;
-      console.log(err)
       res.redirect('/results')
     })
   } else {
