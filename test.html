@@ -7,87 +7,88 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
 </head>
-
 <body>
+  
+
   <!-- this table should be a template for the  results page-->
 
   <!-- this form is a template for the form page  "/" -->
   <form class="form" action="/results.json" method="POST">
 
-    <label for="country" class="genre">
-      <h3>country</h3>
 
-    </label>
-    <input type="radio" name="country" value="country">
+    
+      <fieldset id="genre">
 
+      <label for="pop">pop</label>
+      <input type="radio" value="pop" name="genre" id="pop" checked>
 
+      <label for="Metal">Metal</label>
+      <input type="radio" value="Metal" name="genre" id="Metal">
 
-    <label for="pop" class="genre">
-      <h3>pop</h3>
-    </label>
-    <input type="radio" name="pop" value="pop">
-    <!-- <input type="radio" name="pop" value="pop">
-        <input type="radio" name="rock" value="rock"> -->
+      <label for="Rock">Rock</label>
+      <input type="radio" value="Rock" name="genre" id="Rock">
 
+      <label for="Punk">Punk</label>
+      <input type="radio" value="Punk" name="genre" id="Punk">
 
+      <label for="R&B">R&B</label>
+      <input type="radio" value="R&B" name="genre" id="R&B">
 
+      <label for="Jazz">Jazz</label>
+      <input type="radio" value="Jazz" name="genre" id="Jazz">
 
+      <label for="Hip-Hop">Hip-Hop</label>
+      <input type="radio" value="Hip-Hop" name="genre" id="Hip-Hop">
 
-    <label for="genre" class="genre">
-      <h3>Genre:</h3>
-      <input type="radio" name="country" value="country">
-      <input type="radio" name="pop" value="pop">
-      <input type="radio" name="rock" value="rock">
-    </label>
+      <label for="Electronic">Electronic</label>
+      <input type="radio" value="Electronic" name="genre" id="Electronic">
 
-    <label for="mood" class="mood">
-      <h3>Mood:</h3>
-      <input type="radio" name="happy" value="happy">
-      <input type="radio" name="sad" value="sad">
-      <input type="radio" name="chill" value="chill">
-    </label>
+      <label for="Rap">Rap</label>
+      <input type="radio" value="Rap" name="genre" id="Rap">
 
-    <label for="decade" class="decade">
-      <h3>Decade:</h3>
-      <input type="radio" name="decade" value="2010">
-      <input type="radio" name="2000" value="2000">
-      <input type="radio" name="1990" value="1990">
-    </label>
+ 
+    </fieldset>
 
+    <fieldset id="mood">
 
-    <fieldset id="genre">
+      <label for="angry">angry</label>
+      <input type="radio" value="angry" name="mood" id="angry" checked>
+      
+      <label for="sad">sad</label>
+      <input type="radio" value="sad" name="mood" id="sad">
+      
+      <label for="Happy">Happy</label>
+      <input type="radio" value="Happy" name="mood" id="Happy">
+     
+      <label for="Energetic">Energetic</label>
+      <input type="radio" value="Energetic" name="mood" id="Energetic">
+     
+      <label for="Chill">Chill</label>
+      <input type="radio" value="Chill" name="mood" id="Chill">
+          
+      <label for="Desperate">Desperate</label>
+      <input type="radio" value="Desperate" name="mood" id="Desperate">
+
+      
+    </fieldset>
+
+    <fieldset id="decade">
+
+      <label for="1980's">1980's</label>
+      <input type="radio" value="1980's" name="decade" id="1980's" checked>
+
+      <label for="1990's">1990's</label>
+      <input type="radio" value="1990's" name="decade" id="1990's">
+
+      <label for="2000's">2000's</label>
+      <input type="radio" value="2000's" name="decade" id="2000's">
+
+      <label for="2010's">2010's</label>
+      <input type="radio" value="2010's" name="decade" id="2010's">
 
     </fieldset>
     <br>
-    <input type="submit" name="Submit" value="Submit">
-  </form>
-
-  <form class="form" action="/results.json" method="POST">
-    <!-- the bottom example should be applied to everything  -->
-    <!-- label is linked to input by for -> id -->
-    <fieldset id="genre">
-      <label for="1">yo</label>
-      <input type="radio" value="value1" name="1" id="1">
-      <label for="2">yozaa</label>
-      <input type="radio" value="value2" name="group2" id="2">
-      <input type="radio" value="value3" name="group2">
-    </fieldset>
-
-    <fieldset id="genre">
-      <label for="1">yo</label>
-      <input type="radio" value="value1" name="1" id="1">
-      <label for="2">yozaa</label>
-      <input type="radio" value="value2" name="group2" id="2">
-      <input type="radio" value="value3" name="group2">
-    </fieldset>
-
-    <fieldset id="genre">
-      <label for="1">yo</label>
-      <input type="radio" value="value1" name="1" id="1">
-      <label for="2">yozaa</label>
-      <input type="radio" value="value2" name="group2" id="2">
-      <input type="radio" value="value3" name="group2">
-    </fieldset>
+    <input type="submit">
   </form>
 </body>
 
