@@ -1,7 +1,33 @@
 {{!-- loops through the result data and makes a table with the results--}}
 
+<<<<<<< HEAD
 <table>
   <tr>
     <th></th>
   </tr>
 </table>
+=======
+<table style="border: 1px solid black;">
+    <tr>
+      <th>Name</th>
+      <th>Artist</th>
+      {{!-- <th>Album</th> --}}
+      <th>Year</th>
+      <th>Genre</th>
+      <th>Mood</th>
+    </tr>
+
+    {{#each Music}}
+    <tr>
+      
+      <th>{{Song}} </th>
+      <th>{{Artist}}</th>
+      <th>{{Decade}}</th>
+      <th>{{Genre}}</th>
+      <th>{{Mood}}</th>
+     
+    </tr> 
+    
+    {{/each}}
+  </table>
+>>>>>>> 059505e49f311cc169dd072b9ef105c43f32fb34
