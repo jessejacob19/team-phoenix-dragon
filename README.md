@@ -1,22 +1,16 @@
 # team-phoenix-dragon
-we the best music - DJ KHALED
+this is an app where you can input the genre decade and mood your in and it will output a list of results matching that.
+
+TODO List:
+- [x] make routes all work
+- [ ] make the page look good with css
+- [x] get handlebars working
 
 
-for the data.json
-  should be a object with an array and in that array are all the song objects
+Stretch Goals:
+- [ ] add search bar
+- [ ] add random generate
+- [ ] make proper css navs and navbars for header and footer
 
-  the song object includes:
-    song
-    artist
-    album
-    year
-    genre
-    mood
+Authors: jesse, meg, sharlene, jennifer
 
-  and may also include
-    image
-    spotify url
-
-
-for the results.json
-  the results.json should include the results of the form and is overridden heaps
