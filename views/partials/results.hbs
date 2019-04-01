@@ -1,6 +1,6 @@
 {{!-- loops through the result data and makes a table with the results--}}
-
-<table style="border: 1px solid black;">
+{{#if results}}
+  <table style="border: 1px solid black;">
     <tr>
       <th>Name</th>
       <th>Artist</th>
@@ -10,15 +10,18 @@
     </tr>
 
     {{#each results}}
-    <tr>
-      
-      <th>{{Song}} </th>
-      <th>{{Artist}}</th>
-      <th>{{Decade}}</th>
-      <th>{{Genre}}</th>
-      <th>{{Mood}}</th>
-     
-    </tr> 
-    
+      <tr>
+        <th>{{Song}} </th>
+        <th>{{Artist}}</th>
+        <th>{{Decade}}</th>
+        <th>{{Genre}}</th>
+        <th>{{Mood}}</th>
+      </tr> 
     {{/each}}
   </table>
+
+
+
+  {{else}}
+    <h3>No results match</h3>
+  {{/if}}
